@@ -46,6 +46,7 @@ void vvod_vect(double**& x, int n, int m, FILE* f)
 		printf("%s", "\n");
 	}
 }
+
 int findPositiv(double** x, int n, int m, bool& fl, int& istart, int& jstart)
 {
 	istart = -1;

@@ -93,13 +93,10 @@ int main()
       }
    }
 
-
    delet(a, na);
    delete[] a;
-
    delet(b, nb);
    delete[] b;
-
    delet(c, nc);
    delete[] c;
 
