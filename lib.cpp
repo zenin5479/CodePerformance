@@ -106,5 +106,7 @@ void vivod(double result, FILE* f)
 void delet(double**& x, int n)
 {
 	for (int i = 0; i < n; i++)
+	{
 		delete[] x[i];
+	}
 }
